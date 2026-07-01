@@ -4,8 +4,8 @@ import { Search, MapPin, Clock, Heart, Plus, Store, User, X, Tag, Sparkles, Chev
 
 // ---------- Supabase ----------
 // Remplace ces 2 valeurs par celles de ton projet Supabase (Settings > API)
-const SUPABASE_URL = "https://TON_PROJET.supabase.co";
-const SUPABASE_ANON_KEY = "TA_CLE_ANON_PUBLIQUE";
+const SUPABASE_URL = "https://umkbuyconjhlbxuhmjfp.supabase.co/rest/v1/";
+const SUPABASE_ANON_KEY = "Umkbuyconjhlbxuhmjfp";
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 // Identifiant anonyme de l'appareil, stocké dans le navigateur (remplace window.storage local)
